@@ -1,0 +1,2 @@
+# ilovesloti.club
+iloveslotik
