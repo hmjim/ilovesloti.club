@@ -1,2 +1,0 @@
-# ilovesloti.club
-iloveslotik
