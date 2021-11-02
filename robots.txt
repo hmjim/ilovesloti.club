@@ -35,4 +35,4 @@ Disallow: /comments
 Disallow: */comment-*
 Disallow: /wp-json/
 Disallow: */feed
-Host: iloveslotiz.ey.r.appspot.com
+Host: ilovezlotiz.ey.r.appspot.com

