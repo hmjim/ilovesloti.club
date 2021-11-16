@@ -265,14 +265,14 @@ add_filter( 'wp_get_attachment_url', 'clrs_get_attachment_url', 10, 2 );
 
 function clrs_get_attachment_url( $url, $post_id ) {
 
-	return str_replace( 'https://ilovezlotiz.ey.r.appspot.com', '//2ilovesloti.com', $url );
+	return str_replace( 'https://ilovezlotizz.nw.r.appspot.com', '//2ilovesloti.com', $url );
 }
 
 
 add_filter( 'the_content', 'change_image_url' );
 
 function change_image_url( $content ) {
-	return str_replace( 'https://ilovezlotiz.ey.r.appspot.com/wp-content/uploads/', '//2ilovesloti.com/wp-content/uploads/', $content );
+	return str_replace( 'https://ilovezlotizz.nw.r.appspot.com/wp-content/uploads/', '//2ilovesloti.com/wp-content/uploads/', $content );
 }
 
 

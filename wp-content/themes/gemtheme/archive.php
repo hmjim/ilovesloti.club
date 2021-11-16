@@ -17,7 +17,7 @@
                             <div class="casino-icon">
 								<?php
 								$output_html_curr_link_img2 = get_the_post_thumbnail_url( $post->ID );
-								$output_html_curr_link_img2 = str_replace( 'ilovezlotiz.ey.r.appspot.com/wp-content/uploads/', '2ilovesloti.com/wp-content/uploads/', $output_html_curr_link_img2 );
+								$output_html_curr_link_img2 = str_replace( 'ilovezlotizz.nw.r.appspot.com/wp-content/uploads/', '2ilovesloti.com/wp-content/uploads/', $output_html_curr_link_img2 );
 								?>
                                 <img src="<?php echo $output_html_curr_link_img2; ?>">
                                 <div class="casino-btns">

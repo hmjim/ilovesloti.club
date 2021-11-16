@@ -63,7 +63,7 @@
 								$link                      = get_sub_field( 'link' );
 								$image_data                = get_post( $image );
 								$output_html_curr_link_img = wp_get_attachment_image_url( $image, 'full' );
-								$output_html_curr_link_img = str_replace( 'https://ilovezlotiz.ey.r.appspot.com/wp-content/uploads/', '//2ilovesloti.com/wp-content/uploads/', $output_html_curr_link_img );
+								$output_html_curr_link_img = str_replace( 'https://ilovezlotizz.nw.r.appspot.com/wp-content/uploads/', '//2ilovesloti.com/wp-content/uploads/', $output_html_curr_link_img );
 
 								//print '<pre>';
 								//var_dump( $image );
