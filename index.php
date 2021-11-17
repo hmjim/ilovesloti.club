@@ -339,7 +339,7 @@ if (file_exists($cachefile)) {
 
     exit;
 }
-die();
+
 ob_start(); // Запуск буфера вывода
 
 echo $result3;
