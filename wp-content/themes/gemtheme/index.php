@@ -12,7 +12,7 @@
                             <div class="casino-icon">
 								<?php
 								$output_html_curr_link_img = get_the_post_thumbnail_url();
-								$output_html_curr_link_img = str_replace( 'https://ilovezlotizz.nw.r.appspot.com/wp-content/uploads/', '//2ilovesloti.com/wp-content/uploads/', $output_html_curr_link_img );
+								$output_html_curr_link_img = str_replace( 'https://ilovezzlotizz.nw.r.appspot.com/wp-content/uploads/', '//2ilovesloti.com/wp-content/uploads/', $output_html_curr_link_img );
 								?>
                                 <img src="<?php echo $output_html_curr_link_img; ?>"
                                      title="Игровой автомат <?php the_title(); ?>">

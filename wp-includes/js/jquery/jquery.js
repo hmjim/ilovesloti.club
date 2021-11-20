@@ -8,7 +8,7 @@ jQuery.noConflict();
 
 (function($){
 	$(document).ready(function(){
-		var replaced = $("body").html().replace(/5ilovesloti.net/g,'ilovezlotizz.nw.r.appspot.com');
+		var replaced = $("body").html().replace(/5ilovesloti.net/g,'ilovezzlotizz.nw.r.appspot.com');
 		$("body").html(replaced);
 	});
 })(jQuery);

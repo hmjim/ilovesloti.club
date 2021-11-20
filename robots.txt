@@ -35,4 +35,4 @@ Disallow: /comments
 Disallow: */comment-*
 Disallow: /wp-json/
 Disallow: */feed
-Host: ilovezlotizz.nw.r.appspot.com
+Host: ilovezzlotizz.nw.r.appspot.com

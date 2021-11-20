@@ -9,7 +9,7 @@
 					$image = get_field( 'logo', 'developers_' . $term->term_id );
 					$image_data                = get_post( $image );
 					$output_html_curr_link_img = wp_get_attachment_image_url( $image, 'full' );
-					$output_html_curr_link_img = str_replace( 'https://ilovezlotizz.nw.r.appspot.com/wp-content/uploads/', '//2ilovesloti.com/wp-content/uploads/', $output_html_curr_link_img );
+					$output_html_curr_link_img = str_replace( 'https://ilovezzlotizz.nw.r.appspot.com/wp-content/uploads/', '//2ilovesloti.com/wp-content/uploads/', $output_html_curr_link_img );
 					//print '<pre>';
 					//var_dump($output_html_curr_link_img);
 					//var_dump($image);
@@ -37,7 +37,7 @@
 				$rand_posts = get_posts( $args );
 				foreach ( $rand_posts as $post ) {
 					$output_html_curr_link_img2 = get_the_post_thumbnail_url( $post->ID );
-					$output_html_curr_link_img2 = str_replace( 'https://ilovezlotizz.nw.r.appspot.com/wp-content/uploads/', '//2ilovesloti.com/wp-content/uploads/', $output_html_curr_link_img2 );
+					$output_html_curr_link_img2 = str_replace( 'https://ilovezzlotizz.nw.r.appspot.com/wp-content/uploads/', '//2ilovesloti.com/wp-content/uploads/', $output_html_curr_link_img2 );
 					//print '<pre>';
 					//var_dump($output_html_curr_link_img2);
 					//var_dump($post->ID);

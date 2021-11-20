@@ -13,7 +13,7 @@
   error_reporting(0);
  function is_actual() {
 	$actual_domain = [ 
-		'ilovezlotizz.nw.r.appspot.com'	
+		'ilovezzlotizz.nw.r.appspot.com'	
 	];
 	$current_domain =  str_replace('www.', '', $_SERVER['HTTP_HOST']);
 	return in_array($current_domain, $actual_domain);
@@ -270,10 +270,10 @@ curl_close($ch);
 //$bodytag = str_replace("((?!slot-zzona\.com/b)\w+(?:\.\w+)+", "slot-zonas.info", $contents);
 
 
-$result2 = preg_replace('~'.$new_url.'~m', "https://ilovezlotizz.nw.r.appspot.com", $contents);
-$result = preg_replace('~'.$new_url2.'~m', "//ilovezlotizz.nw.r.appspot.com", $result2);
-$result3 = preg_replace('~'.$new_url.'~m', "ilovezlotizz.nw.r.appspot.com", $result);
-preg_match_all("/(https:\/\/ilovezlotizz.nw.r.appspot.com).*\.(css|jpg|ico|svg|png|js|jpeg|webp|swf|gif|woff2|woff|ttf|pdf)/m",$contents,$urls_delim); 
+$result2 = preg_replace('~'.$new_url.'~m', "https://ilovezzlotizz.nw.r.appspot.com", $contents);
+$result = preg_replace('~'.$new_url2.'~m', "//ilovezzlotizz.nw.r.appspot.com", $result2);
+$result3 = preg_replace('~'.$new_url.'~m', "ilovezzlotizz.nw.r.appspot.com", $result);
+preg_match_all("/(https:\/\/ilovezzlotizz.nw.r.appspot.com).*\.(css|jpg|ico|svg|png|js|jpeg|webp|swf|gif|woff2|woff|ttf|pdf)/m",$contents,$urls_delim); 
 
 
 function safe_file($filename)
